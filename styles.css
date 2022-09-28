@@ -1,0 +1,58 @@
+.selection{
+    width: 300px;
+    float: right;
+    margin-right: 0px;
+}
+label, input, select{
+    margin: 5px;
+}
+input{
+    margin-left: 0px;
+    margin-right: 0;
+}
+label{
+    float: left;
+}
+fieldset{
+width: 400px;
+text-align:end;
+background-color: rgb(242, 232, 181);
+border-radius: 10px;
+margin: auto;
+
+}
+legend{
+    border: solid;
+    border-color: black;
+    background-color: rgb(184, 17, 25);
+    color: white;
+    border-width: 1px;
+}
+.dine{
+    width: 50px;
+}
+div:not(.exc){
+    border: solid; 
+    width:200px; 
+    float:right; 
+    text-align:left; 
+    border-width:1px;
+    padding-left: 10px;
+    margin-bottom: 5px;
+}
+table{
+    margin:auto;
+    padding-top: 20px;
+}
+td{
+    padding-left: 20px;
+    padding-right: 20px;
+}
+.exc{
+    margin:auto; 
+    display:block; 
+    float:none; 
+    width:fit-content; 
+    border:none;
+    font-size: 40px;
+}
